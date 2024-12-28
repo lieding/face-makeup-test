@@ -2,11 +2,11 @@
 
 ## News and Update 🔥🔥🔥
 
-Dec.28, 2024. FaceMaker-V0, **is released!**👏👏👏
+- Dec.28, 2024. [FaceMaker-V0](https://github.com/ddw2AIGROUP2CQUPT/HumanVLM), **is released!**👏👏👏
 
 ## Demo
 
-https://github.com/ddw2AIGROUP2CQUPT/Face-MakeUp/blob/main/assets/demo.mp4
+https://github.com/ddw2AIGROUP2CQUPT/Face-MakeUp/blob/main/assets/demo
 
 ## FaceCaptionHQ-4M
 
