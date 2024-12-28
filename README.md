@@ -6,7 +6,11 @@
 
 ## Demo
 
-https://github.com/ddw2AIGROUP2CQUPT/Face-MakeUp/blob/main/assets/demo
+
+
+https://github.com/user-attachments/assets/392f4f86-92e2-4c28-b8a7-fb724b098678
+
+
 
 ## FaceCaptionHQ-4M
 
