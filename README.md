@@ -2,7 +2,7 @@
 
 ## News and Update 🔥🔥🔥
 
-- Dec.28, 2024. **[FaceMaker-V0](https://github.com/ddw2AIGROUP2CQUPT/Face-MakeUp), is released!👏👏👏**
+- Dec.28, 2024. **[FaceMaker-V0](https://huggingface.co/OpenFace-CQUPT/Face-MakeUp_SD1.5), is released!👏👏👏**
 
 
 
