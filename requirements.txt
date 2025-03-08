@@ -7,3 +7,4 @@ diffusers
 torch
 pillow
 transformers
+huggingface_hub
