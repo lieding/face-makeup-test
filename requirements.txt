@@ -1,0 +1,9 @@
+python-opencv
+gradio
+requests
+numpy
+insightface
+diffusers
+torch
+pillow
+transformers

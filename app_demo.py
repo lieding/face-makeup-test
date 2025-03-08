@@ -1,8 +1,8 @@
 import gradio as gr
 import os
 from diffusers import  DDIMScheduler, AutoencoderKL, UNet2DConditionModel
-from FaceMakeUp.facemakeup.facemakeup import FaceMakeUp
-from FaceMakeUp.facemakeup.FaceMakeUp_Pipline import FaceMakeUp_Pipline
+from facemakeup.facemakeup import FaceMakeUp
+from facemakeup.FaceMakeUp_Pipline import FaceMakeUp_Pipline
 from PIL import Image
 from insightface.model_zoo.arcface_onnx import ArcFaceONNX
 from insightface.utils import face_align
@@ -301,7 +301,7 @@ if __name__== "__main__":
     # 初始化模型路径和参数
     image_encoder_path = "laion/CLIP-ViT-H-14-laion2B-s32B-b79K"
     lora_rank = 128
-    base_model_path = "/home/ddwgroup/workplace/model/SG161222/Realistic_Vision_V4.0_noVAE"
+    base_model_path = "SG161222/Realistic_Vision_V4.0_noVAE"
     vae_model_path = "stabilityai/sd-vae-ft-mse"
     noise_scheduler = DDIMScheduler(
                 num_train_timesteps=1000,
@@ -328,7 +328,7 @@ if __name__== "__main__":
     pipe.safety_checker = None
     pipe.requires_safety_checker = False
     # 模型文件路径
-    model_path = "/home/ddwgroup/san/jmm/ControlledFaceGeneration/ipAdaptet/JFID_v4/checkpoint-530000/model.bin"
+    model_path = "./model.bin"
 
     model = FaceMakeUp(pipe, image_encoder_path, model_path, device, lora_rank = lora_rank, torch_dtype=torch.float32)
 
